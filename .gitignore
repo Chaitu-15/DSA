@@ -1,0 +1,9 @@
+# Compiled executables
+demo
+*.out
+
+# macOS
+.DS_Store
+
+# VS Code temporary files
+.vscode/*.log
