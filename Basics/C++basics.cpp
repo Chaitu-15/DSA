@@ -5,8 +5,9 @@ using namespace std;
 
 int main()
 {
-    cout<<"Heyy Chaitanya"<<endl;
-    cout<<"Imm very happy"<<endl;
-    cout<<"Yooo";
+    int x,y;
+    cin>>x;
+    cin>>y;
+    cout<<"Value of x : "<<x<<"  Value of y : "<<y;
     return 0;
 }
