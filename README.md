@@ -1,2 +1,3 @@
 # DSA
-Dedicated repository to contribute my leetcode progress to be daily commited without fail consistently
+Hey I am chaitanya here's my daily DSA update
+Stay tuned ......
