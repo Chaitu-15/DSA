@@ -3,15 +3,18 @@
 #include<string>
 using namespace std;
 
-int main(){
 
 
-for (int i=1;i<=10;i++){
-   cout<<"Chaitanya"<<endl;
+
+
+void myname(string name){
+   cout<<"hey "<< name;
 }
 
-
-
+int main(){
+string name;
+cin>>name;
+myname(name);
 
 return 0;
 
