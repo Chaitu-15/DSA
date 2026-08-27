@@ -193,27 +193,79 @@ void pattern17(int n)
 {
     for(int i=0;i<=n;i++){
         //space
-        for(int j=0;j<n-i-1;j++){
+        for(int j=0;j<=n-i-1;j++){
             cout<<" ";
         }
         //characters
         char ch='A';
-        for(int j=0 ; j<=n;j++){
+        int breakpoint=(2*i+1)/2;//characters to print in reverse order
+        for(int j=1; j<=2*i+1;j++){
             cout<<ch;
+            if(j<=breakpoint) ch++;
+            else ch--;
         }
         //space
-        for(int j=0;j<n-i-1;j++){
+        for(int j=0;j<=n-i-1;j++){
             cout<<" ";
         }
         cout<<endl;
     }
 }
+void pattern18(int n)
+{
+    for(int i=0;i<n;i++){
+        for(char ch='E'-i ; ch<='E' ; ch++){
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
+}
+void pattern19(int n)
+{
+    int space = 0;
+    for(int i=0;i<n;i++){
+        //star
+        for(int j=1;j<=n-i;j++){
+            cout<<"*";
+        }
+        //space
+        for(int j=0;j<space;j++){
+            cout<<" ";
+        }
+        //star
+        for(int j=1;j<=n-i;j++){
+            cout<<"*";
+        }
+        space +=2;
+        cout<<endl;
+    }
+    space=8;
+    for(int i=1;i<=n;i++){
+        //star
+        for(int j=1;j<=i;j++){
+            cout<<"*";
+        }
+        //space
+        for(int j=0;j<space;j++){
+            cout<<" ";
+        }
+        //star
+        for(int j=1;j<=i;j++){
+            cout<<"*";
+        }
+        space -= 2;
+        cout<<endl;
+    }
+}
+
+
+//-----------------------------------------
 int main(){
     int t;
     cin>>t;
     for(int i=0;i<t;i++){
     int n;
     cin >> n;
-    pattern17(n);
+    pattern19(n);
 }
 }
