@@ -257,6 +257,10 @@ void pattern19(int n)
         cout<<endl;
     }
 }
+void pattern20(int n)
+{
+    
+}
 
 
 //-----------------------------------------
