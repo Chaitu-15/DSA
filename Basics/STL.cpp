@@ -18,3 +18,8 @@ int main()
 
     return 0;
 }
+// STL completed refer Ipad notes.......
+/*
+vectors , list , queue , dequeue , priority queue , stack , set , map .
+
+*/
