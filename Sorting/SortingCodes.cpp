@@ -34,6 +34,8 @@ void BubbleSort(int arr[], int n)
     }
 
 }
+
+void InsertionSort(int arr[] , )
 int main(){
 int n;
 cin>>n;
